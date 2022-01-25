@@ -48,3 +48,4 @@ update address_book set type = 'Friend', name = 'FriendsBook' where firstname in
 update address_book set type = 'Family', name = 'FamilyBook' where firstname in ('Ismael','Byron');
 update address_book set type = 'Colleague', name = 'Office' where firstname = 'James'
 
+select  COUNT(firstname) from address_book where type = 'Family';
