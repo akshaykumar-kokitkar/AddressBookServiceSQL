@@ -30,6 +30,10 @@ WHERE firstname = 'Ismael';
 
 select * from address_book
 
+DELETE from address_book
+WHERE firstname = 'David'
+
+select * from address_book
 
 
 
