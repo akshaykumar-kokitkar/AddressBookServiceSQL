@@ -24,5 +24,12 @@ insert into address_book values
 ('Byron ','Daniels','4385  West Street','Grand Rapids','Michigan','49546','616-575-8233','6y4ug4knmib@temporary-mail.net'),
 ('James ','Juarez','12564  Clay Street','Indianapolis','Indiana','46214','317-410-3617','penlzpd00f@temporary-mail.net')
 
+update address_book
+SET city='Frankfurt', state = 'Ohio'
+WHERE firstname = 'Ismael';
+
+select * from address_book
+
+
 
 
