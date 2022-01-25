@@ -36,5 +36,7 @@ WHERE firstname = 'David'
 select * from address_book
 WHERE city = 'Frankfurt' OR state = 'Ohio';
 
+select COUNT(firstname) from address_book where city = 'Frankfurt' or state = 'Ohio';
+
 
 
