@@ -16,3 +16,13 @@ email varchar(100) NOT NULL
 );
 
 select * from address_book;
+
+insert into address_book values
+('Ismael ','Whitlatch','2319  Burton Avenue','Memphis','Tennessee','38117','901-765-8987','sa5bxlla2e@temporary-mail.net'),
+('Christopher ','Forst','2846  Tori Lane','Salt Lake City','Utah','84113','801-587-0002','ctmgz50esj@temporary-mail.net'),
+('David ','Washington','3379  Echo Lane','TULAROSA','New Mexico','88352','269-962-6511','wkephpw9q2@temporary-mail.net'),
+('Byron ','Daniels','4385  West Street','Grand Rapids','Michigan','49546','616-575-8233','6y4ug4knmib@temporary-mail.net'),
+('James ','Juarez','12564  Clay Street','Indianapolis','Indiana','46214','317-410-3617','penlzpd00f@temporary-mail.net')
+
+
+
