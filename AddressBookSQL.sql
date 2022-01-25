@@ -42,3 +42,9 @@ select * from address_book
 WHERE city = 'Indianapolis' 
 ORDER BY firstname
 
+ALTER table address_book
+ADD type varchar(150), name varchar(100);
+update address_book set type = 'Friend', name = 'FriendsBook' where firstname in ('Christopher','David','Tyler','Janice','Liam');
+update address_book set type = 'Family', name = 'FamilyBook' where firstname in ('Ismael','Byron');
+update address_book set type = 'Colleague', name = 'Office' where firstname = 'James'
+
