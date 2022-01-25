@@ -34,6 +34,7 @@ DELETE from address_book
 WHERE firstname = 'David'
 
 select * from address_book
+WHERE city = 'Frankfurt' OR state = 'Ohio';
 
 
 
